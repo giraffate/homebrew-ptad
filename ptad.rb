@@ -8,10 +8,6 @@ class Ptad < Formula
   sha256 "e6a901c96f38b2049616d966b50e9811dfedc057d86483ad39d891a480a30f61"
 
   def install
-    system "./configure", "--disable-debug",
-                          "--disable-dependency-tracking",
-                          "--disable-silent-rules",
-                          "--prefix=#{prefix}"
-    system "make", "install"
+    bin.install 'ptad'
   end
 end
