@@ -5,7 +5,7 @@ class Ptad < Formula
   desc "Papertrail Archives Downloader"
   homepage "https://github.com/giraffate/ptad"
   url "https://github.com/giraffate/ptad/releases/download/v#{HOMEBREW_PTAD_VERSION}/ptad_v#{HOMEBREW_PTAD_VERSION}_darwin_amd64.zip"
-  sha256 "e6a901c96f38b2049616d966b50e9811dfedc057d86483ad39d891a480a30f61"
+  sha256 "ad81497ae9273d153229ed05aa80d0bd6ee534073e8662fb4b579f55aa5978a7"
 
   def install
     bin.install 'ptad'
